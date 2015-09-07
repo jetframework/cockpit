@@ -1,4 +1,4 @@
-# Cockpit
+# Shed
 
 A simple Ruby web framework.
 
@@ -7,7 +7,7 @@ A simple Ruby web framework.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cockpit'
+gem 'shed'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install cockpit
+    $ gem install shed
 
 ## Usage
 
@@ -30,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/jetframework/cockpit.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jetframework/shed.
 
 ## License
 

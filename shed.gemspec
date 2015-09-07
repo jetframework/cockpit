@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'cockpit/version'
+require 'shed/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "cockpit"
-  spec.version       = Cockpit::VERSION
+  spec.name          = "shed"
+  spec.version       = Shed::VERSION
   spec.authors       = "Jon Moss"
   spec.email         = "me@jonathanmoss.me"
 
   spec.summary       = "A simple Ruby web framework"
   spec.description   = "A simple Ruby web framework"
-  spec.homepage      = "https://github.com/jetframework/cockpit"
+  spec.homepage      = "https://github.com/jetframework/shed"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
