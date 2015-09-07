@@ -1,0 +1,18 @@
+PATH
+  remote: ../../
+  specs:
+    shed (0.0.1)
+      rack
+
+GEM
+  specs:
+    rack (1.6.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  shed!
+
+BUNDLED WITH
+   1.10.6
